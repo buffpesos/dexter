@@ -10,6 +10,7 @@ This repository is a fork of the original [`virattt/dexter`](https://github.com/
 
 - [👋 Overview](#-overview)
 - [🍴 Fork Notes](#-fork-notes)
+- [📚 Documentation](#-documentation)
 - [✅ Prerequisites](#-prerequisites)
 - [💻 How to Install](#-how-to-install)
 - [🚀 How to Run](#-how-to-run)
@@ -47,6 +48,17 @@ git merge upstream/main
 ```
 
 If the upstream default branch changes, replace `main` with the appropriate branch name.
+
+## 📚 Documentation
+
+Additional repository documentation lives in [`docs/`](./docs/README.md).
+
+- [`docs/README.md`](./docs/README.md): documentation index
+- [`docs/features.md`](./docs/features.md): product and subsystem capabilities
+- [`docs/architecture.md`](./docs/architecture.md): architecture and design overview
+- [`docs/configuration.md`](./docs/configuration.md): environment variables and runtime config
+- [`docs/dependencies.md`](./docs/dependencies.md): major dependencies and external integrations
+- [`docs/operations.md`](./docs/operations.md): development, gateway, cron, memory, and eval workflows
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt) [![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=social&logo=discord)](https://discord.gg/jpGHv2XB6T)
 
