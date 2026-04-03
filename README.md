@@ -2,11 +2,14 @@
 
 Dexter is an autonomous financial research agent that thinks, plans, and learns as it works. It performs analysis using task planning, self-reflection, and real-time market data. Think Claude Code, but built specifically for financial research.
 
+This repository is a fork of the original [`virattt/dexter`](https://github.com/virattt/dexter). It keeps compatibility with the upstream project while adding enhancements and custom improvements in this fork.
+
 <img width="665" height="452" alt="Screenshot 2026-04-02 at 4 16 57 PM" src="https://github.com/user-attachments/assets/02418111-5f48-4a66-be5d-dc9bf9806284" />
 
 ## Table of Contents
 
 - [👋 Overview](#-overview)
+- [🍴 Fork Notes](#-fork-notes)
 - [✅ Prerequisites](#-prerequisites)
 - [💻 How to Install](#-how-to-install)
 - [🚀 How to Run](#-how-to-run)
@@ -27,6 +30,23 @@ Dexter takes complex financial questions and turns them into clear, step-by-step
 - **Self-Validation**: Checks its own work and iterates until tasks are complete
 - **Real-Time Financial Data**: Access to income statements, balance sheets, and cash flow statements
 - **Safety Features**: Built-in loop detection and step limits to prevent runaway execution
+
+## 🍴 Fork Notes
+
+This repository tracks the original Dexter project as an upstream source while serving as a place for additional enhancements beyond the original repo.
+
+- `origin` is the fork for this repository
+- `upstream` points to the original `virattt/dexter` repository
+- New features and customizations may land here before, after, or independently of upstream changes
+
+To bring in updates from the original project, fetch and merge from the `upstream` remote:
+
+```bash
+git fetch upstream
+git merge upstream/main
+```
+
+If the upstream default branch changes, replace `main` with the appropriate branch name.
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/virattt?style=social)](https://twitter.com/virattt) [![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=social&logo=discord)](https://discord.gg/jpGHv2XB6T)
 
@@ -61,7 +81,7 @@ bun --version
 
 ## 💻 How to Install
 
-1. Clone the repository:
+1. Clone this forked repository:
 ```bash
 git clone https://github.com/virattt/dexter.git
 cd dexter
